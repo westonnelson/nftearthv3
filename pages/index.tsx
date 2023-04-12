@@ -44,14 +44,12 @@ const Home: NextPage = () => {
                 faster and cheaper than ever.
               </h1>
               <p className={styles.heroSubtitle}>
-                <Link
-                  className={styles.link}
-                  href="https://discord.gg/nftearth"
-                  target="_blank"
-                >
+               
                   About NFTEarth
     
-                  NFTEarth is a protocol for NFTs built on Ethereum Layer 2 Rollups. NFTEarth is aiming to build the best multi-chain Rollup NFT marketplace, onboarding the next 10 million users to NFTs through Layer2.
+                  NFTEarth is a protocol for NFTs built on Ethereum Layer 2 Rollups. NFTEarth is aiming to build the best multi-chain Rollup NFT marketplace, <b>
+                    
+                    </b> onboarding the next 10 million users to NFTs through Layer2. 
               </p>
 
               <div className={styles.heroCtaContainer}>
